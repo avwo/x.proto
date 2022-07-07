@@ -1,0 +1,48 @@
+{
+  "name": "x.proto",
+  "version": "0.1.0",
+  "description": "支持 Node、浏览器、小程序的解析 Protobuf 数据工具库",
+  "main": "./dist",
+  "browser": {
+    "fs": false,
+    "path": false
+  },
+  "scripts": {
+    "lint": "eslint --fix *.js",
+    "dev": "webpack --watch --config ./src/webpack.config.js",
+    "dist": "webpack --config ./src/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avwo/proto"
+  },
+  "keywords": [
+    "Node",
+    "浏览器",
+    "小程序",
+    "Browser",
+    "protobuf",
+    "proto"
+  ],
+  "author": "avenwu <avwu@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "bytebuffer": "^5.0.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "long": "^5.2.0",
+    "protobufjs": "^5.0.3",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

@@ -1,0 +1,41 @@
+/*
+ * @Author: avenwu
+ * @LastEditors: avenwu
+ * @Date: 2021-10-11 17:25:55
+ * @Description: Description
+ * @LastEditTime: 2021-10-11 17:26:14
+ */
+ {
+  "extends": "eslint-config-airbnb",
+  "plugins": [ "babel" ],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "999999999"
+    }
+  },
+  "rules": {
+    "consistent-return": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-plusplus": 0,
+    "no-param-reassign": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
+}
