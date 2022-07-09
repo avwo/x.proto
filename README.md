@@ -3,9 +3,9 @@
 
 # 用法
 1. 安装
-  ``` sh
-  tnpm i --save-dev x.proto
-  ```
+    ``` sh
+    tnpm i --save-dev x.proto
+    ```
 2. 配置 Webpack loader
     ``` js
     module.exports = {
